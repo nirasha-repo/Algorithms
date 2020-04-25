@@ -28,6 +28,7 @@ namespace Algorithms
             var firstCharArr = first.ToCharArray();
             var secondCharArr = second.ToCharArray();
 
+			// complexity -> O(NlogN)
             Array.Sort(firstCharArr);
             Array.Sort(secondCharArr);
 
